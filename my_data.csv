@@ -1,0 +1,7 @@
+msg_id,timestamp,app_protocol,src_app,dst_app,src_port,dst_port,message
+1,0.010,HTTP,Chrome_Browser,Apache_Server,54321,80,GET /index.html HTTP/1.1
+2,0.015,HTTP,Apache_Server,Chrome_Browser,80,54321,HTTP/1.1 200 OK
+3,0.016,HTTP,Apache_Server,Chrome_Browser,80,54321,Content-Type: text/html
+4,0.020,HTTP,Apache_Server,Chrome_Browser,80,54321,<html><body><h1>Hello World</h1></body></html>
+5,0.050,HTTP,Chrome_Browser,Apache_Server,54321,80,GET /favicon.ico HTTP/1.1
+6,0.055,HTTP,Apache_Server,Chrome_Browser,80,54321,HTTP/1.1 404 Not Found
