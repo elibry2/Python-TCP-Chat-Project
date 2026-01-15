@@ -43,7 +43,7 @@ The core of this project is a robust TCP chat server that handles multiple clien
 * `server.py` - The server-side script. Manages connections, stores active users in a dictionary, and routes messages.
 * `client.py` - The client-side script. Connects to the server, handles user input, and listens for incoming messages in a background thread.
 * `part2_chat_capture.pcap` - Wireshark capture file proving successful communication between two distinct physical computers on port 12345.
-* `Traffic_Analysis.ipynb` - Jupyter Notebook for Part 1 (Encapsulation simulation).
+* `Traffic_Analysis.ipynb` - Jupyter Notebook (Encapsulation simulation).
 * `http_input.csv` - Input data for the encapsulation task.
 
 ---
@@ -58,4 +58,5 @@ Before running, open `server.py` and `client.py` and configure the **IP Address*
 ### 2. Start the Server
 Open a terminal and run:
 ```bash
+
 python server.py
